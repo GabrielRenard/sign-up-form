@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>sign-up-form</title>
+  </head>
+
+  <body>
+    <div class="image-sidebar">
+      <img src="./assets/images/dorian-d1-x1jUnvqHQLE-unsplash.jpg" alt=""/>
+    <img src="./assets/images/logo.png" alt="" class="logo-img">
+    </div>
+    <div class="grid-container">
+      <header>
+        <h4>
+          This is a sign up form that is part of the Odin Project's curriculum.<br/><br/>
+          You know you need something like this in your life to help you realize
+          your deepest dreams. <br/><br/>
+          Sign up <em>now</em> to get started. You <em>know</em> you want to.
+        </h4>
+      </header>
+      <form>
+        <h4>Lets do this!</h4>
+        <div class="first-name">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name" required />
+        </div>
+        <div class="last-name">
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" name="last_name" required />
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="phone">
+          <label for="phone_number">Phone Number</label>
+          <input type="tel" id="phone_number" name="phone_number" />
+        </div>
+        <div class="password">
+          <label for="password">Password</label>
+          <input type="password" id="password" required />
+        </div>
+        <div class="confirm-password">
+          <label for="confirm_password">Confirm Password</label>
+          <input type="password" id="confirm_password" required />
+        </div>
+        <div class="create-account">
+            <button>Create Account</button>
+        </form>
+        <p>
+          Already have an account? <span><button>Log in</button></span>
+        </p>
+      </div>
+    </div>
+
+    <script src="./assets/JS/main.js"></script>
+  </body>
+</html>
